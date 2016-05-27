@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7826ED321CF7DB4F006F3EAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7826ED311CF7DB4F006F3EAA /* main.m */; };
+		7826ED351CF7DB4F006F3EAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7826ED341CF7DB4F006F3EAA /* AppDelegate.m */; };
+		7826ED381CF7DB4F006F3EAA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7826ED371CF7DB4F006F3EAA /* ViewController.m */; };
+		7826ED3B1CF7DB4F006F3EAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7826ED391CF7DB4F006F3EAA /* Main.storyboard */; };
+		7826ED3D1CF7DB4F006F3EAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7826ED3C1CF7DB4F006F3EAA /* Assets.xcassets */; };
+		7826ED401CF7DB4F006F3EAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7826ED3E1CF7DB4F006F3EAA /* LaunchScreen.storyboard */; };
+		7826ED4B1CF7DB4F006F3EAA /* GPUImageEecodingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7826ED4A1CF7DB4F006F3EAA /* GPUImageEecodingTests.m */; };
+		7826ED561CF7DB4F006F3EAA /* GPUImageEecodingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7826ED551CF7DB4F006F3EAA /* GPUImageEecodingUITests.m */; };
+		7826ED771CF7F6E4006F3EAA /* VideoCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 7826ED761CF7F6E4006F3EAA /* VideoCapture.m */; };
+		7826ED821CF7F73B006F3EAA /* AudioStreamingConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 7826ED7A1CF7F73B006F3EAA /* AudioStreamingConfiguration.m */; };
+		7826ED831CF7F73B006F3EAA /* VideoStreamingConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 7826ED7C1CF7F73B006F3EAA /* VideoStreamingConfiguration.m */; };
+		7826ED841CF7F73B006F3EAA /* GPUImageBeautifyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7826ED7F1CF7F73B006F3EAA /* GPUImageBeautifyFilter.m */; };
+		7826ED851CF7F73B006F3EAA /* GPUImageEmptyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7826ED811CF7F73B006F3EAA /* GPUImageEmptyFilter.m */; };
+		7826ED881CF7F9E8006F3EAA /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7826ED871CF7F9E8006F3EAA /* SecondViewController.m */; };
+		7826ED901CF80E2E006F3EAA /* NSMutableArray+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 7826ED8B1CF80E2E006F3EAA /* NSMutableArray+YYAdd.m */; };
+		7826ED911CF80E2E006F3EAA /* UIControl+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 7826ED8D1CF80E2E006F3EAA /* UIControl+YYAdd.m */; };
+		7826ED921CF80E2E006F3EAA /* UIView+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 7826ED8F1CF80E2E006F3EAA /* UIView+YYAdd.m */; };
+		7826ED9C1CF80EB8006F3EAA /* camra_beauty@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7826ED941CF80EB8006F3EAA /* camra_beauty@2x.png */; };
+		7826ED9D1CF80EB8006F3EAA /* camra_beauty@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7826ED951CF80EB8006F3EAA /* camra_beauty@3x.png */; };
+		7826ED9E1CF80EB8006F3EAA /* camra_beauty_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7826ED961CF80EB8006F3EAA /* camra_beauty_close@2x.png */; };
+		7826ED9F1CF80EB8006F3EAA /* camra_beauty_close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7826ED971CF80EB8006F3EAA /* camra_beauty_close@3x.png */; };
+		7826EDA01CF80EB8006F3EAA /* camra_preview@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7826ED981CF80EB8006F3EAA /* camra_preview@2x.png */; };
+		7826EDA11CF80EB8006F3EAA /* camra_preview@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7826ED991CF80EB8006F3EAA /* camra_preview@3x.png */; };
+		7826EDA21CF80EB8006F3EAA /* close_preview@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7826ED9A1CF80EB8006F3EAA /* close_preview@2x.png */; };
+		7826EDA31CF80EB8006F3EAA /* close_preview@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7826ED9B1CF80EB8006F3EAA /* close_preview@3x.png */; };
+		7A3C8BCCE6ECDD57ECEA3E65 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BA2D00AE35B0C2C224502F7 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7826ED471CF7DB4F006F3EAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7826ED251CF7DB4E006F3EAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7826ED2C1CF7DB4F006F3EAA;
+			remoteInfo = GPUImageEecoding;
+		};
+		7826ED521CF7DB4F006F3EAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7826ED251CF7DB4E006F3EAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7826ED2C1CF7DB4F006F3EAA;
+			remoteInfo = GPUImageEecoding;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2376CC33B324336EB54F3245 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		4BA2D00AE35B0C2C224502F7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7826ED2D1CF7DB4F006F3EAA /* GPUImageEecoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPUImageEecoding.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7826ED311CF7DB4F006F3EAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7826ED331CF7DB4F006F3EAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7826ED341CF7DB4F006F3EAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7826ED361CF7DB4F006F3EAA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7826ED371CF7DB4F006F3EAA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7826ED3A1CF7DB4F006F3EAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7826ED3C1CF7DB4F006F3EAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7826ED3F1CF7DB4F006F3EAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7826ED411CF7DB4F006F3EAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7826ED461CF7DB4F006F3EAA /* GPUImageEecodingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPUImageEecodingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7826ED4A1CF7DB4F006F3EAA /* GPUImageEecodingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPUImageEecodingTests.m; sourceTree = "<group>"; };
+		7826ED4C1CF7DB4F006F3EAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7826ED511CF7DB4F006F3EAA /* GPUImageEecodingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPUImageEecodingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7826ED551CF7DB4F006F3EAA /* GPUImageEecodingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPUImageEecodingUITests.m; sourceTree = "<group>"; };
+		7826ED571CF7DB4F006F3EAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7826ED751CF7F6E4006F3EAA /* VideoCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCapture.h; sourceTree = "<group>"; };
+		7826ED761CF7F6E4006F3EAA /* VideoCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCapture.m; sourceTree = "<group>"; };
+		7826ED791CF7F73B006F3EAA /* AudioStreamingConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioStreamingConfiguration.h; sourceTree = "<group>"; };
+		7826ED7A1CF7F73B006F3EAA /* AudioStreamingConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioStreamingConfiguration.m; sourceTree = "<group>"; };
+		7826ED7B1CF7F73B006F3EAA /* VideoStreamingConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoStreamingConfiguration.h; sourceTree = "<group>"; };
+		7826ED7C1CF7F73B006F3EAA /* VideoStreamingConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoStreamingConfiguration.m; sourceTree = "<group>"; };
+		7826ED7E1CF7F73B006F3EAA /* GPUImageBeautifyFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageBeautifyFilter.h; sourceTree = "<group>"; };
+		7826ED7F1CF7F73B006F3EAA /* GPUImageBeautifyFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageBeautifyFilter.m; sourceTree = "<group>"; };
+		7826ED801CF7F73B006F3EAA /* GPUImageEmptyFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageEmptyFilter.h; sourceTree = "<group>"; };
+		7826ED811CF7F73B006F3EAA /* GPUImageEmptyFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageEmptyFilter.m; sourceTree = "<group>"; };
+		7826ED861CF7F9E8006F3EAA /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondViewController.h; path = ../SecondViewController.h; sourceTree = "<group>"; };
+		7826ED871CF7F9E8006F3EAA /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondViewController.m; path = ../SecondViewController.m; sourceTree = "<group>"; };
+		7826ED8A1CF80E2E006F3EAA /* NSMutableArray+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+YYAdd.h"; sourceTree = "<group>"; };
+		7826ED8B1CF80E2E006F3EAA /* NSMutableArray+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+YYAdd.m"; sourceTree = "<group>"; };
+		7826ED8C1CF80E2E006F3EAA /* UIControl+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+YYAdd.h"; sourceTree = "<group>"; };
+		7826ED8D1CF80E2E006F3EAA /* UIControl+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+YYAdd.m"; sourceTree = "<group>"; };
+		7826ED8E1CF80E2E006F3EAA /* UIView+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YYAdd.h"; sourceTree = "<group>"; };
+		7826ED8F1CF80E2E006F3EAA /* UIView+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YYAdd.m"; sourceTree = "<group>"; };
+		7826ED941CF80EB8006F3EAA /* camra_beauty@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camra_beauty@2x.png"; sourceTree = "<group>"; };
+		7826ED951CF80EB8006F3EAA /* camra_beauty@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camra_beauty@3x.png"; sourceTree = "<group>"; };
+		7826ED961CF80EB8006F3EAA /* camra_beauty_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camra_beauty_close@2x.png"; sourceTree = "<group>"; };
+		7826ED971CF80EB8006F3EAA /* camra_beauty_close@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camra_beauty_close@3x.png"; sourceTree = "<group>"; };
+		7826ED981CF80EB8006F3EAA /* camra_preview@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camra_preview@2x.png"; sourceTree = "<group>"; };
+		7826ED991CF80EB8006F3EAA /* camra_preview@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camra_preview@3x.png"; sourceTree = "<group>"; };
+		7826ED9A1CF80EB8006F3EAA /* close_preview@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close_preview@2x.png"; sourceTree = "<group>"; };
+		7826ED9B1CF80EB8006F3EAA /* close_preview@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close_preview@3x.png"; sourceTree = "<group>"; };
+		F647D509C0E19A7D4845723E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7826ED2A1CF7DB4F006F3EAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A3C8BCCE6ECDD57ECEA3E65 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7826ED431CF7DB4F006F3EAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7826ED4E1CF7DB4F006F3EAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59C4314FCDA48969B4B24174 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BA2D00AE35B0C2C224502F7 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7826ED241CF7DB4E006F3EAA = {
+			isa = PBXGroup;
+			children = (
+				7826ED2F1CF7DB4F006F3EAA /* GPUImageEecoding */,
+				7826ED491CF7DB4F006F3EAA /* GPUImageEecodingTests */,
+				7826ED541CF7DB4F006F3EAA /* GPUImageEecodingUITests */,
+				7826ED2E1CF7DB4F006F3EAA /* Products */,
+				E1ACBA4BCC23F3992E3E4CC4 /* Pods */,
+				59C4314FCDA48969B4B24174 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7826ED2E1CF7DB4F006F3EAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7826ED2D1CF7DB4F006F3EAA /* GPUImageEecoding.app */,
+				7826ED461CF7DB4F006F3EAA /* GPUImageEecodingTests.xctest */,
+				7826ED511CF7DB4F006F3EAA /* GPUImageEecodingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7826ED2F1CF7DB4F006F3EAA /* GPUImageEecoding */ = {
+			isa = PBXGroup;
+			children = (
+				7826ED931CF80EB8006F3EAA /* images */,
+				7826ED891CF80E2E006F3EAA /* category */,
+				7826ED781CF7F73B006F3EAA /* Configuration */,
+				7826ED7D1CF7F73B006F3EAA /* Filters */,
+				7826ED331CF7DB4F006F3EAA /* AppDelegate.h */,
+				7826ED341CF7DB4F006F3EAA /* AppDelegate.m */,
+				7826ED861CF7F9E8006F3EAA /* SecondViewController.h */,
+				7826ED871CF7F9E8006F3EAA /* SecondViewController.m */,
+				7826ED361CF7DB4F006F3EAA /* ViewController.h */,
+				7826ED371CF7DB4F006F3EAA /* ViewController.m */,
+				7826ED751CF7F6E4006F3EAA /* VideoCapture.h */,
+				7826ED761CF7F6E4006F3EAA /* VideoCapture.m */,
+				7826ED391CF7DB4F006F3EAA /* Main.storyboard */,
+				7826ED3C1CF7DB4F006F3EAA /* Assets.xcassets */,
+				7826ED3E1CF7DB4F006F3EAA /* LaunchScreen.storyboard */,
+				7826ED411CF7DB4F006F3EAA /* Info.plist */,
+				7826ED301CF7DB4F006F3EAA /* Supporting Files */,
+			);
+			path = GPUImageEecoding;
+			sourceTree = "<group>";
+		};
+		7826ED301CF7DB4F006F3EAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7826ED311CF7DB4F006F3EAA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7826ED491CF7DB4F006F3EAA /* GPUImageEecodingTests */ = {
+			isa = PBXGroup;
+			children = (
+				7826ED4A1CF7DB4F006F3EAA /* GPUImageEecodingTests.m */,
+				7826ED4C1CF7DB4F006F3EAA /* Info.plist */,
+			);
+			path = GPUImageEecodingTests;
+			sourceTree = "<group>";
+		};
+		7826ED541CF7DB4F006F3EAA /* GPUImageEecodingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7826ED551CF7DB4F006F3EAA /* GPUImageEecodingUITests.m */,
+				7826ED571CF7DB4F006F3EAA /* Info.plist */,
+			);
+			path = GPUImageEecodingUITests;
+			sourceTree = "<group>";
+		};
+		7826ED781CF7F73B006F3EAA /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				7826ED791CF7F73B006F3EAA /* AudioStreamingConfiguration.h */,
+				7826ED7A1CF7F73B006F3EAA /* AudioStreamingConfiguration.m */,
+				7826ED7B1CF7F73B006F3EAA /* VideoStreamingConfiguration.h */,
+				7826ED7C1CF7F73B006F3EAA /* VideoStreamingConfiguration.m */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		7826ED7D1CF7F73B006F3EAA /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				7826ED7E1CF7F73B006F3EAA /* GPUImageBeautifyFilter.h */,
+				7826ED7F1CF7F73B006F3EAA /* GPUImageBeautifyFilter.m */,
+				7826ED801CF7F73B006F3EAA /* GPUImageEmptyFilter.h */,
+				7826ED811CF7F73B006F3EAA /* GPUImageEmptyFilter.m */,
+			);
+			path = Filters;
+			sourceTree = "<group>";
+		};
+		7826ED891CF80E2E006F3EAA /* category */ = {
+			isa = PBXGroup;
+			children = (
+				7826ED8A1CF80E2E006F3EAA /* NSMutableArray+YYAdd.h */,
+				7826ED8B1CF80E2E006F3EAA /* NSMutableArray+YYAdd.m */,
+				7826ED8C1CF80E2E006F3EAA /* UIControl+YYAdd.h */,
+				7826ED8D1CF80E2E006F3EAA /* UIControl+YYAdd.m */,
+				7826ED8E1CF80E2E006F3EAA /* UIView+YYAdd.h */,
+				7826ED8F1CF80E2E006F3EAA /* UIView+YYAdd.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		7826ED931CF80EB8006F3EAA /* images */ = {
+			isa = PBXGroup;
+			children = (
+				7826ED941CF80EB8006F3EAA /* camra_beauty@2x.png */,
+				7826ED951CF80EB8006F3EAA /* camra_beauty@3x.png */,
+				7826ED961CF80EB8006F3EAA /* camra_beauty_close@2x.png */,
+				7826ED971CF80EB8006F3EAA /* camra_beauty_close@3x.png */,
+				7826ED981CF80EB8006F3EAA /* camra_preview@2x.png */,
+				7826ED991CF80EB8006F3EAA /* camra_preview@3x.png */,
+				7826ED9A1CF80EB8006F3EAA /* close_preview@2x.png */,
+				7826ED9B1CF80EB8006F3EAA /* close_preview@3x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		E1ACBA4BCC23F3992E3E4CC4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2376CC33B324336EB54F3245 /* Pods.debug.xcconfig */,
+				F647D509C0E19A7D4845723E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7826ED2C1CF7DB4F006F3EAA /* GPUImageEecoding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7826ED5A1CF7DB4F006F3EAA /* Build configuration list for PBXNativeTarget "GPUImageEecoding" */;
+			buildPhases = (
+				8FFF56AAE9C54B6828DE3AC1 /* Check Pods Manifest.lock */,
+				7826ED291CF7DB4F006F3EAA /* Sources */,
+				7826ED2A1CF7DB4F006F3EAA /* Frameworks */,
+				7826ED2B1CF7DB4F006F3EAA /* Resources */,
+				9E3F78AE33EFB4BF799EDFE4 /* Embed Pods Frameworks */,
+				46C326E7BE689CA5193C64F1 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPUImageEecoding;
+			productName = GPUImageEecoding;
+			productReference = 7826ED2D1CF7DB4F006F3EAA /* GPUImageEecoding.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7826ED451CF7DB4F006F3EAA /* GPUImageEecodingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7826ED5D1CF7DB4F006F3EAA /* Build configuration list for PBXNativeTarget "GPUImageEecodingTests" */;
+			buildPhases = (
+				7826ED421CF7DB4F006F3EAA /* Sources */,
+				7826ED431CF7DB4F006F3EAA /* Frameworks */,
+				7826ED441CF7DB4F006F3EAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7826ED481CF7DB4F006F3EAA /* PBXTargetDependency */,
+			);
+			name = GPUImageEecodingTests;
+			productName = GPUImageEecodingTests;
+			productReference = 7826ED461CF7DB4F006F3EAA /* GPUImageEecodingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7826ED501CF7DB4F006F3EAA /* GPUImageEecodingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7826ED601CF7DB4F006F3EAA /* Build configuration list for PBXNativeTarget "GPUImageEecodingUITests" */;
+			buildPhases = (
+				7826ED4D1CF7DB4F006F3EAA /* Sources */,
+				7826ED4E1CF7DB4F006F3EAA /* Frameworks */,
+				7826ED4F1CF7DB4F006F3EAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7826ED531CF7DB4F006F3EAA /* PBXTargetDependency */,
+			);
+			name = GPUImageEecodingUITests;
+			productName = GPUImageEecodingUITests;
+			productReference = 7826ED511CF7DB4F006F3EAA /* GPUImageEecodingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7826ED251CF7DB4E006F3EAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = jianqiangzhang;
+				TargetAttributes = {
+					7826ED2C1CF7DB4F006F3EAA = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					7826ED451CF7DB4F006F3EAA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7826ED2C1CF7DB4F006F3EAA;
+					};
+					7826ED501CF7DB4F006F3EAA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7826ED2C1CF7DB4F006F3EAA;
+					};
+				};
+			};
+			buildConfigurationList = 7826ED281CF7DB4E006F3EAA /* Build configuration list for PBXProject "GPUImageEecoding" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7826ED241CF7DB4E006F3EAA;
+			productRefGroup = 7826ED2E1CF7DB4F006F3EAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7826ED2C1CF7DB4F006F3EAA /* GPUImageEecoding */,
+				7826ED451CF7DB4F006F3EAA /* GPUImageEecodingTests */,
+				7826ED501CF7DB4F006F3EAA /* GPUImageEecodingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7826ED2B1CF7DB4F006F3EAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7826ED9E1CF80EB8006F3EAA /* camra_beauty_close@2x.png in Resources */,
+				7826ED401CF7DB4F006F3EAA /* LaunchScreen.storyboard in Resources */,
+				7826ED9C1CF80EB8006F3EAA /* camra_beauty@2x.png in Resources */,
+				7826ED3D1CF7DB4F006F3EAA /* Assets.xcassets in Resources */,
+				7826EDA11CF80EB8006F3EAA /* camra_preview@3x.png in Resources */,
+				7826ED9F1CF80EB8006F3EAA /* camra_beauty_close@3x.png in Resources */,
+				7826EDA31CF80EB8006F3EAA /* close_preview@3x.png in Resources */,
+				7826EDA21CF80EB8006F3EAA /* close_preview@2x.png in Resources */,
+				7826ED3B1CF7DB4F006F3EAA /* Main.storyboard in Resources */,
+				7826EDA01CF80EB8006F3EAA /* camra_preview@2x.png in Resources */,
+				7826ED9D1CF80EB8006F3EAA /* camra_beauty@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7826ED441CF7DB4F006F3EAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7826ED4F1CF7DB4F006F3EAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46C326E7BE689CA5193C64F1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FFF56AAE9C54B6828DE3AC1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9E3F78AE33EFB4BF799EDFE4 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7826ED291CF7DB4F006F3EAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7826ED881CF7F9E8006F3EAA /* SecondViewController.m in Sources */,
+				7826ED911CF80E2E006F3EAA /* UIControl+YYAdd.m in Sources */,
+				7826ED381CF7DB4F006F3EAA /* ViewController.m in Sources */,
+				7826ED771CF7F6E4006F3EAA /* VideoCapture.m in Sources */,
+				7826ED351CF7DB4F006F3EAA /* AppDelegate.m in Sources */,
+				7826ED841CF7F73B006F3EAA /* GPUImageBeautifyFilter.m in Sources */,
+				7826ED851CF7F73B006F3EAA /* GPUImageEmptyFilter.m in Sources */,
+				7826ED321CF7DB4F006F3EAA /* main.m in Sources */,
+				7826ED921CF80E2E006F3EAA /* UIView+YYAdd.m in Sources */,
+				7826ED901CF80E2E006F3EAA /* NSMutableArray+YYAdd.m in Sources */,
+				7826ED821CF7F73B006F3EAA /* AudioStreamingConfiguration.m in Sources */,
+				7826ED831CF7F73B006F3EAA /* VideoStreamingConfiguration.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7826ED421CF7DB4F006F3EAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7826ED4B1CF7DB4F006F3EAA /* GPUImageEecodingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7826ED4D1CF7DB4F006F3EAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7826ED561CF7DB4F006F3EAA /* GPUImageEecodingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7826ED481CF7DB4F006F3EAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7826ED2C1CF7DB4F006F3EAA /* GPUImageEecoding */;
+			targetProxy = 7826ED471CF7DB4F006F3EAA /* PBXContainerItemProxy */;
+		};
+		7826ED531CF7DB4F006F3EAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7826ED2C1CF7DB4F006F3EAA /* GPUImageEecoding */;
+			targetProxy = 7826ED521CF7DB4F006F3EAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7826ED391CF7DB4F006F3EAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7826ED3A1CF7DB4F006F3EAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7826ED3E1CF7DB4F006F3EAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7826ED3F1CF7DB4F006F3EAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7826ED581CF7DB4F006F3EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7826ED591CF7DB4F006F3EAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7826ED5B1CF7DB4F006F3EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2376CC33B324336EB54F3245 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GPUImageEecoding/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.avcon.GPUImageEecoding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7826ED5C1CF7DB4F006F3EAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F647D509C0E19A7D4845723E /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GPUImageEecoding/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.avcon.GPUImageEecoding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7826ED5E1CF7DB4F006F3EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GPUImageEecodingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.avcon.GPUImageEecodingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPUImageEecoding.app/GPUImageEecoding";
+			};
+			name = Debug;
+		};
+		7826ED5F1CF7DB4F006F3EAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GPUImageEecodingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.avcon.GPUImageEecodingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPUImageEecoding.app/GPUImageEecoding";
+			};
+			name = Release;
+		};
+		7826ED611CF7DB4F006F3EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GPUImageEecodingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.avcon.GPUImageEecodingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GPUImageEecoding;
+			};
+			name = Debug;
+		};
+		7826ED621CF7DB4F006F3EAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GPUImageEecodingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.avcon.GPUImageEecodingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GPUImageEecoding;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7826ED281CF7DB4E006F3EAA /* Build configuration list for PBXProject "GPUImageEecoding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7826ED581CF7DB4F006F3EAA /* Debug */,
+				7826ED591CF7DB4F006F3EAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7826ED5A1CF7DB4F006F3EAA /* Build configuration list for PBXNativeTarget "GPUImageEecoding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7826ED5B1CF7DB4F006F3EAA /* Debug */,
+				7826ED5C1CF7DB4F006F3EAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7826ED5D1CF7DB4F006F3EAA /* Build configuration list for PBXNativeTarget "GPUImageEecodingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7826ED5E1CF7DB4F006F3EAA /* Debug */,
+				7826ED5F1CF7DB4F006F3EAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7826ED601CF7DB4F006F3EAA /* Build configuration list for PBXNativeTarget "GPUImageEecodingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7826ED611CF7DB4F006F3EAA /* Debug */,
+				7826ED621CF7DB4F006F3EAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7826ED251CF7DB4E006F3EAA /* Project object */;
+}
